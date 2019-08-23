@@ -5,7 +5,7 @@ title: "Blogroll"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["blog"]
 categories: []
 date: 2019-08-23T11:23:13+08:00
 lastmod: 2019-08-23T11:23:13+08:00
