@@ -45,7 +45,7 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 # `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+edit_page = {repo_url = "https://github.com/stefango/academic-kickstart", repo_branch = "dev", editable = {docs = true, page = false, post = false}}
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -69,8 +69,9 @@ address = "CIT, Suzhou, Jiangsu, PRC"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
+  {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/Stefango"},
+  # {icon = "wechat", icon_pack = "fab", name = "Wechat Me", link = "#"},
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/StefangoXu"},
-  {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/StefangoXu"},
   ]
 
 # Display a map.
@@ -88,10 +89,10 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 0
+map = 1
 map_api_key = ""
-latitude = "37.4275"
-longitude = "-122.1697"
+latitude = "31.589322"
+longitude = "120.772439"
 zoom = 15
 
 ############################
@@ -109,7 +110,7 @@ plugins_js  = []
 ############################
 
 # Get user avatars from Gravatar.com? (true/false)
-gravatar = false
+gravatar = true
 
 # Align the main menu to the right of the page? (true/false)
 menu_align_right = false
@@ -150,14 +151,14 @@ sharing = true
   #   0: Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
-  engine = 0
+  engine = 1
 
   # Which page types are commentable?
   commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
 
   # Configuration of Disqus.
   [comments.disqus]
-    shortname = ""  # Paste the shortname from your Disqus dashboard.
+    shortname = "stefango"  # Paste the shortname from your Disqus dashboard.
     show_count = true  # Show comment count in page header? (true/false)
 
 # Search.
