@@ -32,13 +32,11 @@ projects: []
 
 1. 新窗口中打开文件夹：`ctrl` + `folder`
 2. 查看剪切板：`win` + `V`
-3. 
 
 ## Linux
 
 1. 使用Z-Shell替换bash（配置方式：https://segmentfault.com/a/1190000015155864）
 2. node版本管理工具NodeVersionManager
-3. 
 
 
 ## Chrome
@@ -47,15 +45,9 @@ projects: []
 2. 打开新的标签页：`ctrl` + `T`
 3. 打开新的窗口：`ctrl` + `N`
 4. 不使用IDM插件下载：`alt` + `download_link`
-5. 
+5. IDM Chrome插件 https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek
+6. 代理工具 SwitchyOmega ("导入/导出"填写`https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList.bak` )
 
 ## Git
 
 1. 设置别名提高效率，如：用 `gaa` 替代 `git add -all` （配置：https://segmentfault.com/a/1190000015155864#articleHeader2）
-2. 
-
-## 下载工具
-
-1. IDM Chrome插件 https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek
-2. 
-
