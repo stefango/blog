@@ -50,6 +50,18 @@ projects: []
 5. IDM Chrome 插件 https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek
 6. 代理工具 SwitchyOmega ("导入/导出"中填入 `https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList.bak` )
 
+## Node
+
+1.  npm的镜像源管理工具
+   1. 安装 `npm i -g nrm` 
+   2. 查看可选的源 ` nrm ls `
+   3. 切换至淘宝 ` nrm use taobao `
+   4. 添加源 ` nrm add registry <url>`
+   5. 测试速度 ` nrm test npm `
+2. [Check for outdated, incorrect, and unused dependencies](https://github.com/dylang/npm-check)
+   1.  `npm i -g npm-check`
+   2. 空格多选， 回车确定
+
 ## Git
 
 1. 设置别名提高效率，如：用 `gaa` 替代 `git add -all` （ 配置：https://segmentfault.com/a/1190000015155864#articleHeader2 ）
