@@ -33,6 +33,7 @@ projects: []
 1. 新窗口中打开文件夹：`ctrl` + `folder`
 2. 查看剪切板：`win` + `V`
 3. 轻微摇晃 ( 左右 ) 当前窗体可隐藏其他窗体
+4. office2019  https://www.cnblogs.com/radiumlrb/p/10030064.html  https://kms.03k.org
 
 ## Linux
 
@@ -76,10 +77,18 @@ projects: []
 
 ## CDN
 
-1. Github+jsDelivr+PicGo 打造稳定快速、高效免费图床 https://www.itrhx.com/2019/08/01/A27-image-hosting/
+1. Github + jsDelivr + PicGo 打造稳定快速、高效免费图床 https://www.itrhx.com/2019/08/01/A27-image-hosting/
 
 ## 图片压缩
 
 1. https://squoosh.app/
+
+## MI 5卡刷
+
+1. 新建备份，将备份文件拷至电脑
+2. 下载 Team Win Recovery Project  https://twrp.me/ ，fastboot flash recovery [Recovery路径和文件名].img
+3. 下载 MIUI 11第三方rom包 https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-WEEKLY-RELEASES/9.10.10/xiaomi.eu_multi_MI5_9.10.10_v11-8.0.zip/download
+4. 手机关机，长按音量上键+电源键进入rec(Team Win页面)，清除-格式化data数据-输入yes(键盘弹不出来时切换语言)
+5. 去手机卡，连接开代理的热点检查更新(其他跳过更新的方法也可以)
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=53rxpnraqpa&amp;s=220&amp;m=0&amp;v=false&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
