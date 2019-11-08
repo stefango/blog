@@ -90,5 +90,6 @@ projects: []
 3. 下载 MIUI 11第三方rom包 https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-WEEKLY-RELEASES/9.10.10/xiaomi.eu_multi_MI5_9.10.10_v11-8.0.zip/download
 4. 手机关机，长按音量上键+电源键进入rec(Team Win页面)，清除-格式化data数据-输入yes(键盘弹不出来时切换语言)
 5. 去手机卡，连接开代理的热点检查更新(其他跳过更新的方法也可以)
+6. 添加mipay等应用 [https://www.199989.xyz/%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F%E7%B3%BB%E7%B5%B1eu%E7%89%88%E5%8A%A0%E5%85%A5mipay%E4%BB%A5%E5%8F%8A%E6%97%A5%E6%9B%86%E5%A2%9E%E5%8A%A0%E8%BE%B2%E6%9B%86
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=53rxpnraqpa&amp;s=220&amp;m=0&amp;v=false&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
