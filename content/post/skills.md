@@ -31,9 +31,10 @@ projects: []
 ## Windows10
 
 1. 新窗口中打开文件夹：`ctrl` + `folder`
-2. 查看剪切板：`win` + `V`
-3. 轻微摇晃 ( 左右 ) 当前窗体可隐藏其他窗体
-4. office2019  https://www.cnblogs.com/radiumlrb/p/10030064.html  https://kms.03k.org
+2. 显示桌面：`win` + `D`
+3. 查看剪切板：`win` + `V`
+4. 轻微摇晃 ( 左右 ) 当前窗体可隐藏其他窗体
+5. office2019  https://www.cnblogs.com/radiumlrb/p/10030064.html  https://kms.03k.org
 
 ## Linux
 
@@ -88,8 +89,17 @@ projects: []
 1. 新建备份，将备份文件拷至电脑
 2. 下载 Team Win Recovery Project  https://twrp.me/ ，fastboot flash recovery [Recovery路径和文件名].img
 3. 下载 MIUI 11第三方rom包 https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-WEEKLY-RELEASES/9.10.10/xiaomi.eu_multi_MI5_9.10.10_v11-8.0.zip/download
-4. 手机关机，长按音量上键+电源键进入rec(Team Win页面)，清除-格式化data数据-输入yes(键盘弹不出来时切换语言)
+4. 手机关机，长按音量上键+电源键进入rec( Team Win 页面)，清除-格式化data数据-输入yes(键盘弹不出来时切换语言)
 5. 去手机卡，连接开代理的热点检查更新(其他跳过更新的方法也可以)
 6. 添加mipay等应用 [https://www.199989.xyz/%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F%E7%B3%BB%E7%B5%B1eu%E7%89%88%E5%8A%A0%E5%85%A5mipay%E4%BB%A5%E5%8F%8A%E6%97%A5%E6%9B%86%E5%A2%9E%E5%8A%A0%E8%BE%B2%E6%9B%86
 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=53rxpnraqpa&amp;s=220&amp;m=0&amp;v=false&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
+## 互传（保留文件原有时间戳）
+
+1. 安卓传win：使用USB即可
+2. win传安卓( USB 3.0 的传输速度为10 MB/s )：使用[锤子家的 HandShaker (完整安装包下载)](https://www.smartisan.com/apps/#/handshaker)
+3. 使用 HandShaker 2.6.0 进行安卓传win时，无法保留原有时间戳
+
+<a href="https://info.flagcounter.com/oY7z"><img src="https://s11.flagcounter.com/count2/oY7z/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
