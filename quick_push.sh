@@ -5,4 +5,5 @@ read -p "Plz input your comment: " comment
 echo "Your comment is $comment"
 git add .
 git commit -m "$comment"
-nohup git push
+git push
+# nohup
