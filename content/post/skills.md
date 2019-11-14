@@ -66,8 +66,26 @@ projects: []
 
 ## Git
 
-1. 设置别名提高效率，如：用 `gaa` 替代 `git add -all` （ 配置：https://segmentfault.com/a/1190000015155864#articleHeader2 ）
-2. 服务器上的 Git - 生成 SSH 公钥 https://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5
+1. 利用 shell 脚本 + PowerShell + Git Bash 快速提交代码
+
+   1. 编写 shell 脚本 `my_shell.sh`
+
+   ```shell
+   echo "Shell's name is $0"
+   git add .
+   echo "Comment is $1"
+   git commit -m "$1"
+   git push
+   ```
+
+   2. 在 PowerShell 中运行上述脚本( `your_comment` 可不用引号包围 )
+
+   ```powershell
+   .\myshell.sh your_comment
+   ```
+
+2. 设置别名提高效率，如：用 `gaa` 替代 `git add -all` （ 配置：https://segmentfault.com/a/1190000015155864#articleHeader2 ）
+3. 服务器上的 Git - 生成 SSH 公钥 https://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5
    1. `~/.ssh` 目录下输入`ssh-keygen` ，生成 `id_rsa` 和 `id_ras.pub`
    2. 码云 - 设置 - SSH公钥 - 填入本地 `~/.ssh/id_rsa.pub` 中的内容
    3. 服务器 - `vim  ~/.ssh/authorized_keys` - 填入本地 `~/.ssh/id_rsa.pub` 中的内容，连接 ` ssh root@ip` 

@@ -1,4 +1,6 @@
+read -p "Plz input your comment: " comment
+echo "Your comment is $comment"
 git add .
-echo "comment is $1"
-git commit -m "$1"
+git commit -m "$comment"
+pause
 git push
