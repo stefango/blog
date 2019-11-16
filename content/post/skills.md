@@ -28,6 +28,8 @@ image:
 projects: []
 ---
 
+[TOC]
+
 ## Windows10
 
 1. 新窗口中打开文件夹：`ctrl` + `folder`
@@ -52,9 +54,14 @@ projects: []
 5. IDM Chrome 插件 https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek
 6. 代理工具 SwitchyOmega ("导入/导出"中填入 `https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList.bak` )
 
+## Typora
+
+1. 设置标题级别：`ctrl` + `数字(小键盘不可以用)`
+2. 支持反缩进
+
 ## Node
 
-1.  npm的镜像源管理工具
+1.  npm的镜像源管理工具nrm ( npm registry manager )
    1. 安装 `npm i -g nrm` 
    2. 查看可选的源 ` nrm ls `
    3. 切换至淘宝 ` nrm use taobao `
