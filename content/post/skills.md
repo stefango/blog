@@ -33,10 +33,36 @@ projects: []
 ## Windows10
 
 1. 新窗口中打开文件夹：`ctrl` + `folder`
+
 2. 显示桌面：`win` + `D`
+
 3. 查看剪切板：`win` + `V`
+
 4. 轻微摇晃 ( 左右 ) 当前窗体可隐藏其他窗体
-5. office2019  https://www.cnblogs.com/radiumlrb/p/10030064.html  https://kms.03k.org
+
+5. Office2019  https://www.cnblogs.com/radiumlrb/p/10030064.html  https://kms.03k.org
+
+6. SSH for WSL
+
+   1. (据实际情况)关闭 Windows 自带的 SSH 服务(占用了22端口)
+
+   2. 在 WSL 中安装 SSH 服务
+
+      ```shell
+      # 卸载
+      sudo apt-get remove openssh-server
+      # 安装
+      sudo apt-get install openssh-server
+      # 编辑配置文件
+      sudo vim /etc/ssh/sshd_config
+          Port 22  # 取消注释
+          ...
+          PasswordAuthentication yes # 开启密码验证
+      # 重启ssh服务
+      sudo service ssh --full-restart
+      ```
+
+   3. 使用 cmder(支持复制、粘贴) 连接: `ssh username@localhost`
 
 ## Linux ( TG: https://t.me/linux_home )
 
@@ -48,8 +74,19 @@ projects: []
 ## Nginx ( TG: https://t.me/nginx_ru )
 
 1. 打开(系统中所有的 Nginx，如：系统自带的 nginx、自己安装的 nginx 等): `sudo nginx`
+
 2. 重新加载配置|重启|停止|退出 nginx: `nginx -s reload|reopen|stop|quit`
+
 3. 测试配置是否有语法错误: `nginx -t` 
+
+4. Nginx 单页应用配置 Nginx conf for SPA
+
+   ```shell
+   # http->server->location
+   location / {
+   	try_files $uri $uri/ /index.html;
+   }
+   ```
 
 
 ## Chrome
