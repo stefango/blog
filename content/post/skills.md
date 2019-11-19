@@ -38,11 +38,18 @@ projects: []
 4. 轻微摇晃 ( 左右 ) 当前窗体可隐藏其他窗体
 5. office2019  https://www.cnblogs.com/radiumlrb/p/10030064.html  https://kms.03k.org
 
-## Linux
+## Linux ( TG: https://t.me/linux_home )
 
 1. 使用 Z-Shell 替换 bash （ 配置方式：https://segmentfault.com/a/1190000015155864 主题：https://birdteam.net/131798 ）
 2. node 版本管理工具 NodeVersionManager
 3. 返回到上一次的工作目录：`cd -`
+4. Ubuntu 自带 nginx 的配置文件地址 `/etc/nginx/sites-available/default`, 自己安装的 nginx 的配置文件地址 `/usr/local/nginx/conf/nginx.conf`
+
+## Nginx ( TG: https://t.me/nginx_ru )
+
+1. 打开(系统中所有的 Nginx，如：系统自带的 nginx、自己安装的 nginx 等): `sudo nginx`
+2. 重新加载配置|重启|停止|退出 nginx: `nginx -s reload|reopen|stop|quit`
+3. 测试配置是否有语法错误: `nginx -t` 
 
 
 ## Chrome
