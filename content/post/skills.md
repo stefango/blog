@@ -103,7 +103,7 @@ projects: []
 ## Chrome
 
 1. 新标签页中打开网页：`ctrl` + `url`
-2. 打开新的标签页：`ctrl` + `T`
+2. 打开新的标签页：单击鼠标滚轮 / `ctrl` + `T`
 3. 打开新的窗口：`ctrl` + `N`
 4. 不使用 IDM 插件下载：`alt` + `download_link`
 5. IDM Chrome 插件 https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek
