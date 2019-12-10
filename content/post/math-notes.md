@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Blogroll"
+title: "Math Notes"
 subtitle: ""
 summary: ""
-authors: ["Xu Zili"]
-tags: ["blog"]
+authors: []
+tags: []
 categories: []
-date: 2019-08-23T11:23:13+08:00
-lastmod: 2019-08-23T11:23:13+08:00
+date: 2019-11-24T16:02:34+08:00
+lastmod: 2019-11-24T16:02:34+08:00
 featured: false
 draft: false
 
@@ -28,14 +28,10 @@ image:
 projects: []
 ---
 
-1. 单玉洁的博客 https://danyujie.gitee.io
-2. ......
----
+[TOC]
 
-友链格式
+# 麦克劳林
 
-- 网址：https://stefango.tk
-- 名称：Stefango
-- 头像：
-https://cdn.jsdelivr.net/gh/stefango/academic-kickstart/content/authors/admin/avatar.jpg
+# 极限
 
+# 导数
