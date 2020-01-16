@@ -69,16 +69,44 @@ projects: []
 ## Linux (TG: https://t.me/linux_home)
 
 1. 使用 Z-Shell 替换 bash (配置方式：https://segmentfault.com/a/1190000015155864 主题：https://birdteam.net/131798)
+
 2. node 版本管理工具 NodeVersionManager
+
 3. 返回到上一次的工作目录：`cd -`
+
 4. 进程查看器 htop
+
 5. 在 WSL 中使用 Windows 下的 Sublime Text：`sublime_text.exe filename_in_wsl` （建议在 `.zshrc / .bashrc` 中设置 `alias` 为 st）
+
 6. zsh（逐字）向右补全提示内容（需要插件 zsh-autosuggestions ）：(`ctrl` +) `→ / 右键` 
+
 7. MySQL 命令行神器 mycli：`sudo apt install mycli`
 
-### ToDo
+8. CentOS7默认防火墙firewall（新系统无法直接远程访问3306和80端口）
+```shell
+man firewall-cmd #查看帮助
+systemctl stop firewalld.service #关闭防火墙
+systemctl disable firewalld.service #禁止防火墙开机启动
+firewall-cmd --reload #重新载入配置
+firewall-cmd --state #查看防火墙状态
+firewall-cmd --permanent --add-port=3306/tcp #永久添加3306端口
+firewall-cmd --query-port=80/tcp #查询端口号80是否开启
+firewall-cmd --permanent --remove-port=80/tcp #移除80端口
+```
 
-   1. Tmux（终端复用器 Terminal Multiplexer） http://www.ruanyifeng.com/blog/2019/10/tmux.html 
+9. Centos7内置MariaDB和nginx
+10. Tmux（终端复用器 Terminal Multiplexer） http://www.ruanyifeng.com/blog/2019/10/tmux.html 
+11. v2ray在CentOS7中后台运行
+
+```shell
+sudo systemctl enable v2ray
+sudo systemctl daemon-reload
+sudo systemctl start v2ray
+```
+
+12. centos7ss(Socket Statistics)命令查看端口占用(然后kill pid杀死进程) https://fxxk.life/replacing-netstat-with-ss-in-centos7/
+
+    
 
 ## Nginx (TG: https://t.me/nginx_ru)
 
