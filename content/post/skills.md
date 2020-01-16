@@ -177,10 +177,20 @@ sudo systemctl start v2ray
        ```
 
 2. 设置别名提高效率，如：用 `gaa` 替代 `git add -all` （配置：https://segmentfault.com/a/1190000015155864#articleHeader2）
+
 3. 服务器上的 Git - 生成 SSH 公钥 https://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5
    1. 本地 - `~/.ssh` 目录下输入`ssh-keygen` ，生成 `id_rsa` 和 `id_ras.pub`
    2. 码云 - 设置 - SSH公钥 - 填入本地 `~/.ssh/id_rsa.pub` 中的内容
    3. 服务器 - `vim  ~/.ssh/authorized_keys` - 填入本地 `~/.ssh/id_rsa.pub` 中的内容，连接 ` ssh root@ip` 
+   
+4. wget Unable to establish SSL connection
+
+   ```shell
+   # 将 raw.githubusercontent.com 替换为 raw.staticdn.net
+   sh -c "$(wget https://raw.staticdn.net/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+   ```
+
+   
 
 ## Search Engine
 
