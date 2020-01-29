@@ -68,21 +68,23 @@ projects: []
 
 ## Linux (TG: https://t.me/linux_home)
 
-1. 使用 Z-Shell 替换 bash (配置方式：https://segmentfault.com/a/1190000015155864 主题：https://birdteam.net/131798)
+1. 使用 zsh(ZSHELL) 替换 bash (配置方式：https://segmentfault.com/a/1190000015155864 主题：https://birdteam.net/131798)
 
 2. node 版本管理工具 NodeVersionManager
-
 3. 返回到上一次的工作目录：`cd -`
-
 4. 进程查看器 htop
-
 5. 在 WSL 中使用 Windows 下的 Sublime Text：`sublime_text.exe filename_in_wsl` （建议在 `.zshrc / .bashrc` 中设置 `alias` 为 st）
-
 6. zsh（逐字）向右补全提示内容（需要插件 zsh-autosuggestions ）：(`ctrl` +) `→ / 右键` 
-
 7. MySQL 命令行神器 mycli：`sudo apt install mycli`
+8. 彩虹命令lolcat
 
-8. CentOS7默认防火墙firewall（新系统无法直接远程访问3306和80端口）
+```shell
+sudo apt install rubygems # 安装rubygems
+sudo gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ # 切换国内镜像
+sudo apt install lolcat
+```
+
+9. CentOS7默认防火墙firewall（新系统无法直接远程访问3306和80端口）
 ```shell
 man firewall-cmd #查看帮助
 systemctl stop firewalld.service #关闭防火墙
@@ -120,12 +122,12 @@ sudo systemctl start v2ray
 
 5. Nginx 单页应用配置 (Nginx conf for SPA)
 
-   ```shell
-   # http->server->location
-   location / {
-   	try_files $uri $uri/ /index.html;
-   }
-   ```
+```shell
+# http->server->location
+location / {
+	try_files $uri $uri/ /index.html;
+}
+```
 
 
 ## Chrome
@@ -156,7 +158,14 @@ sudo systemctl start v2ray
 
 ## Git
 
-1. 利用 shell 脚本 + Git Bash (+ PowerShell) 快速提交代码
+1. git 代理（仅针对 github）
+
+   ```shell
+git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
+   git config --global https.https://github.com.proxy socks5://127.0.0.1:1080
+   ```
+   
+2. 利用 shell 脚本 + Git Bash (+ PowerShell) 快速提交代码
 
    1. 编写 shell 脚本 `my_shell.sh`
 
@@ -176,14 +185,14 @@ sudo systemctl start v2ray
        .\myshell.sh your_comment
        ```
 
-2. 设置别名提高效率，如：用 `gaa` 替代 `git add -all` （配置：https://segmentfault.com/a/1190000015155864#articleHeader2）
+3. 设置别名提高效率，如：用 `gaa` 替代 `git add -all` （配置：https://segmentfault.com/a/1190000015155864#articleHeader2）
 
-3. 服务器上的 Git - 生成 SSH 公钥 https://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5
+4. 服务器上的 Git - 生成 SSH 公钥 https://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5
    1. 本地 - `~/.ssh` 目录下输入`ssh-keygen` ，生成 `id_rsa` 和 `id_ras.pub`
    2. 码云 - 设置 - SSH公钥 - 填入本地 `~/.ssh/id_rsa.pub` 中的内容
    3. 服务器 - `vim  ~/.ssh/authorized_keys` - 填入本地 `~/.ssh/id_rsa.pub` 中的内容，连接 ` ssh root@ip` 
-   
-4. wget Unable to establish SSL connection
+
+5. wget Unable to establish SSL connection
 
    ```shell
    # 将 raw.githubusercontent.com 替换为 raw.staticdn.net
