@@ -106,9 +106,40 @@ sudo systemctl daemon-reload
 sudo systemctl start v2ray
 ```
 
-12. centos7ss(Socket Statistics)命令查看端口占用(然后kill pid杀死进程) https://fxxk.life/replacing-netstat-with-ss-in-centos7/
+12. centos7 ss(Socket Statistics)命令查看端口占用(然后kill pid杀死进程) https://fxxk.life/replacing-netstat-with-ss-in-centos7/
+13. centos7 部署 springboot 项目：使用 [pm2](https://pm2.keymetrics.io/) 守护 springboot 进程 (nohup 有时会不顶用)
 
-    
+```shell
+# 安装(建议使用 nvm 来管理 node 版本)
+npm install pm2 -g
+# 新建用于启动项目的 pm2.json，name 字段为进程名
+{
+  "name": "cj_freshman",
+  "script": "java",
+  "args": [
+    "-jar",
+    "./freshman.jar",
+    "--spring.profiles.active=prod"
+  ],
+  "exec_interpreter": "",
+  "exec_mode": "fork"
+}
+# 文档
+pm2 -h
+# 启动守护
+pm2 start pm2.json
+# 查看进程
+pm2 ls
+# 开启/关闭/重启进程
+pm2 start/stop/restart [id|name|filename]
+# 注：jar包所在目录名发生改变后需要执行以下操作
+pm2 delete 0
+pm2 start pm2.json --update-env
+```
+
+
+
+
 
 ## Nginx (TG: https://t.me/nginx_ru)
 
@@ -204,6 +235,10 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 ## Search Engine
 
 1. 正确高效使用 Google https://b.xinshengdaxue.com/C04.html
+
+## Xshell
+
+1. 上传/下载工具包 rz (覆盖 `rz -y`)及 sz (下载), `yum install -y lrzsz`
 
 ## CDN
 
