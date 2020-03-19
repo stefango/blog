@@ -177,13 +177,21 @@ location / {
 
 ## Node
 
-1.  npm 的镜像源管理工具 nrm (npm registry manager)
+1. centos7安装node10
+   ```shell
+   curl -sL https://rpm.nodesource.com/setup_10.x | bash -
+   sudo yum install -y nodejs
+   ```
+
+2. npm 的镜像源管理工具 nrm (npm registry manager)
+
    1. 安装 `npm i -g nrm` 
    2. 查看可选的源 ` nrm ls `
    3. 切换至淘宝 ` nrm use taobao `
    4. 添加源 ` nrm add registry <url>`
    5. 测试速度 ` nrm test npm `
-2. [Check for outdated, incorrect, and unused dependencies](https://github.com/dylang/npm-check)
+
+3. [Check for outdated, incorrect, and unused dependencies](https://github.com/dylang/npm-check)
    1.  `npm i -g npm-check`
    2. 空格多选， 回车确定
 
