@@ -177,12 +177,21 @@ location / {
 
 ## Node
 
-1. centos7安装node10
+1. centos7安装node12
    ```shell
-   curl -sL https://rpm.nodesource.com/setup_10.x | bash -
+   curl -sL https://rpm.nodesource.com/setup_12.x | bash -
    sudo yum install -y nodejs
+   
+# Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+   yum -y install deltarpm
+   
+   # No Presto metadata available for nodesource
+   # edit `/etc/yum.conf` and add or change the following:
+   ​```
+   deltarpm=0
+   ​```
    ```
-
+   
 2. npm 的镜像源管理工具 nrm (npm registry manager)
 
    1. 安装 `npm i -g nrm` 
