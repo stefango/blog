@@ -181,15 +181,12 @@ location / {
    ```shell
    curl -sL https://rpm.nodesource.com/setup_12.x | bash -
    sudo yum install -y nodejs
-   
-# Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+   # Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
    yum -y install deltarpm
-   
+
    # No Presto metadata available for nodesource
    # edit `/etc/yum.conf` and add or change the following:
-   ​```
    deltarpm=0
-   ​```
    ```
    
 2. npm 的镜像源管理工具 nrm (npm registry manager)
@@ -212,7 +209,7 @@ location / {
 git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
    git config --global https.https://github.com.proxy socks5://127.0.0.1:1080
    ```
-   
+
 2. 利用 shell 脚本 + Git Bash (+ PowerShell) 快速提交代码
 
    1. 编写 shell 脚本 `my_shell.sh`
@@ -282,5 +279,17 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 3. 使用 HandShaker2.6.0 进行安卓传 win 时，无法保留原有时间戳
 
 <a href="https://info.flagcounter.com/oY7z"><img src="https://s11.flagcounter.com/count2/oY7z/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
+## IE 存在的价值
+
+### SVG转PNG（保留透明通道），生成 JetBrains 风格的头像
+
+1. 用 IE11 打开此[链接](https://hub.jetbrains.com/api/rest/avatar/default?username=Jinping+Xi&size=32&dpr=1.0)，并指定 username
+
+2. SVG 上右键“另存为图片”，并选择 PNG
+
+3. 效果图
+
+   ![JX](../../img/skills.assets/JX.png)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
