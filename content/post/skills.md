@@ -94,6 +94,7 @@ firewall-cmd --state #查看防火墙状态
 firewall-cmd --permanent --add-port=3306/tcp #永久添加3306端口
 firewall-cmd --query-port=80/tcp #查询端口号80是否开启
 firewall-cmd --permanent --remove-port=80/tcp #移除80端口
+firewall-cmd --list-ports #查看端口（不输 `-ports` 直接回车时，可以 `--list` 开头的命令）
 ```
 
 9. Centos7内置MariaDB和nginx
@@ -159,6 +160,29 @@ location / {
 	try_files $uri $uri/ /index.html;
 }
 ```
+
+## Apache
+
+```shell
+#安装（-y表示yes，自动安装）
+yum install httpd -y
+#启动/查看状态（外部无法访问时参考本页防火墙设置 firewall-cmd）
+service httpd start/status
+#服务目录	/etc/httpd
+#主配置文件	/etc/httpd/conf/httpd.conf
+#网站数据目录	/var/www/html
+#访问日志	/var/log/httpd/access_log
+#错误日志	/var/log/httpd/error_log
+```
+
+## Tomcat9
+
+```shell
+cd /usr/local #/usr/local:用户级的程序目录,可以理解为C:/Progrem Files/
+wget https://mirror.bit.edu.cn/apache/tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-9.0.33.tar.gz
+tar -xf apache-tomcat-9.0.33.tar.gz
+```
+
 
 
 ## Chrome
@@ -278,8 +302,6 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 2. win 传安卓(USB3.0 的传输速度为10 MB/s)：使用[锤子家的 HandShaker (完整安装包下载)](https://www.smartisan.com/apps/#/handshaker)
 3. 使用 HandShaker2.6.0 进行安卓传 win 时，无法保留原有时间戳
 
-<a href="https://info.flagcounter.com/oY7z"><img src="https://s11.flagcounter.com/count2/oY7z/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-
 ## IE 存在的价值
 
 ### SVG转PNG（保留透明通道），生成 JetBrains 风格的头像
@@ -291,5 +313,7 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 3. 效果图
 
    ![JX](../../img/skills.assets/JX.png)
+
+<a href="https://info.flagcounter.com/oY7z"><img src="https://s11.flagcounter.com/count2/oY7z/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
