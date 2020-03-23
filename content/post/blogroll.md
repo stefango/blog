@@ -39,3 +39,5 @@ projects: []
 - 头像：
 https://cdn.jsdelivr.net/gh/stefango/academic-kickstart/content/authors/admin/avatar.jpg
 
+<script type="text/javascript" src="//rf.revolvermaps.com/0/0/1.js?i=53rxpnraqpa&amp;s=220&amp;m=0&amp;v=false&amp;r=false&amp;b=000000&amp;n=false&amp;c=ff0000" async="async"></script>
+
