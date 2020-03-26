@@ -183,7 +183,33 @@ wget https://mirror.bit.edu.cn/apache/tomcat/tomcat-9/v9.0.33/bin/apache-tomcat-
 tar -xf apache-tomcat-9.0.33.tar.gz
 ```
 
+### 多端口部署
 
+1. 修改 `conf/server.xml`：在 `services` 下添加以下代码：
+
+```xml
+  <!-- 第n个项目start -->
+  <!-- 1.修改name -->
+  <Service name="Catalina3">
+    <!-- 2.修改port -->
+    <Connector port="83" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443" />
+    <!-- <Connector port="8009" protocol="AJP/1.3" redirectPort="8443" /> -->
+    <!-- 3.修改name -->
+    <Engine name="Catalina3" defaultHost="localhost">
+      <Realm className="org.apache.catalina.realm.LockOutRealm">
+        <Realm className="org.apache.catalina.realm.UserDatabaseRealm" resourceName="UserDatabase" />
+      </Realm>
+      <!-- 4.修改appBase -->
+      <Host name="localhost" appBase="webapps3" unpackWARs="true" autoDeploy="true">
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" prefix="localhost_access_log" suffix=".txt" pattern="%h %l %u %t &quot;%r&quot; %s %b" />
+      </Host>
+    </Engine>
+  </Service>
+  <!-- 第n个项目end -->
+```
+
+2. 在 tomcat 根目录中新建以 appBase为名的文件夹，如：webapps3
+3. 上传 war 包到 appBase 中（修改项目名为ROOT可不加项目名访问）
 
 ## Chrome
 
@@ -312,6 +338,33 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 3. 效果图
 
    ![JX](../../img/skills.assets/JX.png)
+
+## IntelliJ IDEA Ultimate
+
+1. 实时模板（Live Templates）：可用于生成 Spring Boot 主程序代码、SLF4J 代码等。
+
+   - Spring Boot 主程序代码 Steps：
+
+     - 添加 `Template Group` (如：A My Group，加 A 可将这个分组置顶)
+
+     - 上述 Group 中添加 `Live Template`， `Abbreviation` 填入 `mainboot`
+   
+  - `Define`，选择 `Java`
+   
+  - `Template text` 中填入
+   
+       ```java
+       public static void main(String[] args) {
+           SpringApplication.run($CLASS$.class, args);
+       }
+    ```
+   
+  - `Edit variables`：为 `$CLASS$` 绑定 `Expression`，选择 `className()`
+   
+- Ref:
+     - https://www.jetbrains.com/help/idea/template-variables.html
+     - https://www.w3cschool.cn/intellij_idea_doc/intellij_idea_doc-doha2ece.html
+     - https://www.cloudesire.com/quickly-get-a-logger-with-intellij-live-templates/
 
 <a href="https://info.flagcounter.com/oY7z"><img src="https://s11.flagcounter.com/count2/oY7z/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 
