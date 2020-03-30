@@ -65,6 +65,8 @@ projects: []
       ```
    
    3. 使用 cmder (支持复制、粘贴) 连接: `ssh username@localhost`
+   
+7. 命令行启动 mysql57：`net start mysql57`
 
 ## Linux (TG: https://t.me/linux_home)
 
@@ -174,6 +176,10 @@ service httpd start/status
 #访问日志	/var/log/httpd/access_log
 #错误日志	/var/log/httpd/error_log
 ```
+
+## Maven
+
+1. 项目使用 Spring Data JPA 时，`mvn install` 之前需要启动 mysql 服务（我是为了省电所以关了自启 :smile: ），如： `net start mysql57`
 
 ## Tomcat9
 
