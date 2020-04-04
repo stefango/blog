@@ -181,6 +181,22 @@ service httpd start/status
 
 1. 项目使用 Spring Data JPA 时，`mvn install` 之前需要启动 mysql 服务（我是为了省电所以关了自启 :smile: ），如： `net start mysql57`
 
+## MySQL
+
+1. MySQL8.0验证密码方式改变了（老版本的加密规则是*mysql_native_password*，而新版本的是*caching_sha2_password*）。因此，navicat连接MySQL8.0时可能会报错，参考解决方式如下：
+
+   ```shell
+   #打开cmd，登录mysql
+   mysql -uroot -hlocalhost -p
+   123456
+   #修改mysql_native_password身份验证插件密码
+   ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
+   #刷新权限
+   FLUSH PRIVILEGES;
+   ```
+
+   
+
 ## Tomcat9
 
 ```shell
@@ -377,3 +393,10 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+
+---
+
+**推广**：
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=stefango0a-20&marketplace=amazon&region=US&placement=B086R5PD49&asins=B086R5PD49&linkId=eb4d7969fdccf980dfb1e2d2da8b8367&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
