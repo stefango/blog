@@ -29,7 +29,12 @@ projects: []
 ---
 
 1. 单玉洁的博客 https://danyujie.gitee.io
-2. ......
+
+2. 陈文管的博客-Amazon Affiliate账号注册详解 https://www.chenwenguan.com/amazon-affiliate-register-and-use-guide/
+
+3. ...
+
+   
 ---
 
 友链格式
