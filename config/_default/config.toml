@@ -72,4 +72,11 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 [params]
     disqusShortname = "stefango"
-    
+    toc = true
+
+############################
+## Marketing
+############################
+[marketing]
+  google_analytics = "G-6NR1DCJ7F4"
+  google_tag_manager = "GTM-W7SRWJH"
