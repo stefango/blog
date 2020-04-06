@@ -65,4 +65,4 @@ user_groups:
 - Visitors
 ---
 
-Xu Zili is a student of Software Engineering in CIT. 
+Education: Software Engineering in CIT

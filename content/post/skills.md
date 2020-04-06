@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-[TOC]
+{{% toc %}}
 
 ## Windows10
 
@@ -68,7 +68,7 @@ projects: []
    
 7. 命令行启动 mysql57：`net start mysql57`
 
-## Linux (TG: https://t.me/linux_home)
+## Linux ( TG: https://t.me/linux_home )
 
 1. 使用 zsh(ZSHELL) 替换 bash (配置方式：https://segmentfault.com/a/1190000015155864 主题：https://birdteam.net/131798)
 
@@ -239,7 +239,7 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 2. 打开新的标签页：单击鼠标滚轮 / `ctrl` + `T`
 3. 打开新的窗口：`ctrl` + `N`
 4. 不使用 IDM 插件下载：`alt` + `download_link`
-5. IDM Chrome 插件 https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek
+5. [IDM Chrome 插件](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
 6. 代理工具 SwitchyOmega ("导入/导出"中填入 `https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList.bak`)
 
 ## Typora
@@ -328,7 +328,7 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 
 ## CDN
 
-1. Github + jsDelivr + PicGo 打造稳定快速、高效免费图床 https://www.itrhx.com/2019/08/01/A27-image-hosting/
+1. [Github + jsDelivr + PicGo 打造稳定快速、高效免费图床](https://www.itrhx.com/2019/08/01/A27-image-hosting/)
 
 ## 图片压缩
 
@@ -337,11 +337,11 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 ## MI5 卡刷
 
 1. 新建备份，将备份文件拷至电脑
-2. 下载 Team Win Recovery Project  https://twrp.me/ ，fastboot flash recovery [Recovery路径和文件名].img
-3. 下载 MIUI 11第三方rom包 https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-WEEKLY-RELEASES/9.10.10/xiaomi.eu_multi_MI5_9.10.10_v11-8.0.zip/download
+2. [下载 Team Win Recovery Project](https://twrp.me/)，fastboot flash recovery [Recovery路径和文件名].img
+3. [下载 MIUI 11第三方rom包](https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-WEEKLY-RELEASES/9.10.10/xiaomi.eu_multi_MI5_9.10.10_v11-8.0.zip/download)
 4. 手机关机，长按音量上键+电源键进入 rec (Team Win 页面)，清除-格式化 data 数据-输入 yes (键盘弹不出来时切换语言)
 5. 去手机卡，连接开代理的热点检查更新(其他跳过更新的方法也可以)
-6. 添加 mipay 等应用 https://www.199989.xyz/%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F%E7%B3%BB%E7%B5%B1eu%E7%89%88%E5%8A%A0%E5%85%A5mipay%E4%BB%A5%E5%8F%8A%E6%97%A5%E6%9B%86%E5%A2%9E%E5%8A%A0%E8%BE%B2%E6%9B%86
+6. [添加 mipay 等应用](https://www.199989.xyz/%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%A9%9F%E7%B3%BB%E7%B5%B1eu%E7%89%88%E5%8A%A0%E5%85%A5mipay%E4%BB%A5%E5%8F%8A%E6%97%A5%E6%9B%86%E5%A2%9E%E5%8A%A0%E8%BE%B2%E6%9B%86)
 
 ## 互传（保留文件原有时间戳）
 
