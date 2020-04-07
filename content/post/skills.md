@@ -183,7 +183,19 @@ service httpd start/status
 
 ## MySQL
 
-1. MySQL8.0验证密码方式改变了（老版本的加密规则是*mysql_native_password*，而新版本的是*caching_sha2_password*）。因此，navicat连接MySQL8.0时可能会报错，参考解决方式如下：
+1. 无法远程访问（Redis等其他软件同理）：检查云服务提供商安全组配置、firewalld(CentOS7)、myql是否允许远程访问（如下设置）
+
+   ```shell
+   use mysql;
+   #授权来自所有主机所有用户的访问
+   grant all privileges  on *.* to root@'%' identified by "password";
+   #刷新权限
+   flush privileges;
+   ```
+   
+   
+
+2. MySQL8.0验证密码方式改变了（老版本的加密规则是*mysql_native_password*，而新版本的是*caching_sha2_password*）。因此，navicat连接MySQL8.0时可能会报错，参考解决方式如下：
 
    ```shell
    #打开cmd，登录mysql
@@ -322,9 +334,28 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 
 1. 正确高效使用 Google https://b.xinshengdaxue.com/C04.html
 
+## V2Ray
+
+### 服务器端(CentOS7)
+
+1. 安装（[脚本备用地址](https://gist.github.com/stefango/5f3a5a6edbc37fde17356c754b0e5762)）：`sudo bash <(curl -L -s https://install.direct/go.sh)`
+
+2. 配置：主要修改port（并添加到云服务提供商的安全组中）和clients id，id可借助 [Online UUID Generator Tool](https://www.uuidgenerator.net/) 来生成
+3. 运行：`service v2ray start|stop|status|reload|restart|force-reload`
+
+### 客户端(Windows10)
+
+1. 下载[v2rayN-core](https://github.com/2dust/v2rayN/releases)
+2. 配置：添加VMess服务器，填写address、port、id（服务器端的clients id）、alterId
+
 ## Xshell
 
 1. 上传/下载工具包 rz (覆盖 `rz -y`)及 sz (下载), `yum install -y lrzsz`
+
+## Cmder
+
+1. 迁移Cmder（D盘→C盘）：修改环境变量，重新添加注册表 `cmder /register all`
+2. 网络检查工具：[tracetcp](https://github.com/0xcafed00d/tracetcp/releases/tag/v1.0.3)（可在 `cmder\config\user_aliases.cmd` 中设置简写 `tt=tracetcp $*`，`$*` 用于接收参数），demo ：`tracetcp ip:port`
 
 ## CDN
 
@@ -361,6 +392,29 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 
    ![JX](../../img/skills.assets/JX.png)
 
+## AWS Free Tier(CentOS7)
+
+1. 需要为EC2绑定弹性IP才可以使用
+
+2. 用户名为centos，连接方式为 `ssh -i "your.pem" centos@弹性IP`
+
+3. 修改密码：`sudo passwd root`
+
+4. centos用户登入后，设置允许root用户登录
+
+   ```shell
+   #修改ssh配置(`su root`之后可以不用加`sudo`)
+   sudo vi /etc/ssh/sshd_config
+   #修改项如下
+   PermitRootLogin yes
+   PubkeyAuthentication no
+   PasswordAuthentication yes
+   #重启ssh
+   service sshd restart
+   ```
+
+   
+
 ## IntelliJ IDEA Ultimate
 
 1. 实时模板（Live Templates）：可用于生成 Spring Boot 主程序代码、SLF4J 代码等。
@@ -396,7 +450,7 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 
 ---
 
-**推广**：
+**推广（来自小米用户）**：
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=stefango0a-20&marketplace=amazon&region=US&placement=B086R5PD49&asins=B086R5PD49&linkId=eb4d7969fdccf980dfb1e2d2da8b8367&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
