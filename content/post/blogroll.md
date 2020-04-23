@@ -28,13 +28,24 @@ image:
 projects: []
 ---
 
-1. 单玉洁的博客 https://danyujie.gitee.io
+## 校友
 
-2. 陈文管的博客-Amazon Affiliate账号注册详解 https://www.chenwenguan.com/amazon-affiliate-register-and-use-guide/
+1. 单玉洁（Python/Java） https://danyujie.gitee.io
+2. https://github.com/devilyouwei
+3. MeandNi（安卓） https://meandni.com/ https://github.com/MeandNi
+4. ...
+## 陌生人
 
-3. ...
+1. 陈文管的博客-Amazon Affiliate账号注册详解 https://www.chenwenguan.com/amazon-affiliate-register-and-use-guide/
+2. ...
 
-   
+## 社区
+
+1. V2EX https://www.v2ex.com/
+2. 牛客网 https://www.nowcoder.com/
+3. 开源中国软件频道 https://www.oschina.net/project
+4. 程序员客栈 https://www.proginn.com/
+
 ---
 
 友链格式

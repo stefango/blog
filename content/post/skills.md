@@ -140,9 +140,7 @@ pm2 delete 0
 pm2 start pm2.json --update-env
 ```
 
-
-
-
+14. 查找软件：如果不是 `yum / rpm` 安装的，是没有环境变量的，无法通过 `whereis` 找到软件，可通过 `find` 命令来找
 
 ## Nginx (TG: https://t.me/nginx_ru)
 
@@ -183,7 +181,7 @@ service httpd start/status
 
 ## MySQL
 
-1. 无法远程访问（Redis等其他软件同理）：检查云服务提供商安全组配置、firewalld(CentOS7)、myql是否允许远程访问（如下设置）
+1. 无法远程访问（Redis等其他软件同理，特殊情况下还需要考虑宝塔防火墙、selinux等）：检查云服务提供商安全组配置、firewalld(CentOS7)、myql是否允许远程访问（如下设置）
 
    ```shell
    use mysql;
