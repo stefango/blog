@@ -11,44 +11,38 @@ date: 2019-08-23T11:23:13+08:00
 lastmod: 2019-08-23T11:23:13+08:00
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
-## 校友
+## Alumnus
 
-1. 单玉洁（Python/Java） https://danyujie.gitee.io
-2. https://github.com/devilyouwei
+1. [shanyujie](https://danyujie.gitee.io)
+2. [devilyouwei](https://github.com/devilyouwei)
 3. MeandNi（安卓） https://meandni.com/ https://github.com/MeandNi
 4. ...
-## 陌生人
+## Strangers
 
-1. 陈文管的博客-Amazon Affiliate账号注册详解 https://www.chenwenguan.com/amazon-affiliate-register-and-use-guide/
-2. ...
+1. [陈文管的博客-Amazon Affiliate账号注册详解](https://www.chenwenguan.com/amazon-affiliate-register-and-use-guide/)
+2. [StarUML3.x破解方法](https://www.yuxuan66.com/166)
+3. ...
 
-## 社区
+## Tech Communities
 
-1. V2EX https://www.v2ex.com/
-2. 牛客网 https://www.nowcoder.com/
-3. 开源中国软件频道 https://www.oschina.net/project
-4. 程序员客栈 https://www.proginn.com/
+1. [V2EX](https://www.v2ex.com/)
+2. [牛客网](https://www.nowcoder.com/)
+3. [开源中国软件频道](https://www.oschina.net/project)
+4. [程序员客栈](https://www.proginn.com/)
+5. 酷安
 
 ---
 
-友链格式
+## 社会主义羊毛
+
+1. [好人卡](https://www.haorenka.org/)
+2. [JIKE](https://jike.info/)
+3. [如有乐享](https://51.ruyo.net/)
+4. [也许吧](https://www.imaybes.com/)
+
+## Blog Format
 
 - 网址：https://stefango.tk
 - 名称：Stefango
