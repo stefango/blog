@@ -12,7 +12,7 @@ draft: false
 
 ### Q: Unknown Mutation Type
 
-近日，我在 vuex 的 mutations 中封装 antd 提供的 notification 时，遇到了 `unknown mutation type: SHOW_NOTIFICATION`
+近日，我在 vuex 3.1.3 的 mutations 中封装 antd 提供的 notification 时，遇到了 `unknown mutation type: SHOW_NOTIFICATION`
 
 ```javascript
 // vuex下的common模块common.js部分代码
@@ -58,3 +58,4 @@ dispatch 不同的 action 来实现 commit 不同的 mutation。
 
 1. Jonas from vuebeijing.io wechat group
 2. [组合 action](https://vuex.vuejs.org/zh/guide/actions.html#%E7%BB%84%E5%90%88-action)
+3. [Vue进阶之使用命名空间更优雅地规划store]()
