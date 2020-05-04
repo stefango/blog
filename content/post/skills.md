@@ -27,6 +27,13 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+**推广**
+
+<div>
+  <a href="https://www.cfos.de/en/cfosspeed/cfosspeed.htm">
+    <img src="https://www.cfos.de/images/cfosspeed-affiliate-banner-dark.png" width="728" alt="cFosSpeed会员横幅" title="使用cFosSpeed减少你的ping  - 互联网加速器！"/>
+  </a>
+</div>
 
 {{% toc %}}
 
@@ -68,17 +75,17 @@ projects: []
    
 7. 命令行启动 mysql57：`net start mysql57`
 
-## Linux ( TG: https://t.me/linux_home )
+## Linux
 
-1. 使用 zsh(ZSHELL) 替换 bash (配置方式：https://segmentfault.com/a/1190000015155864 主题：https://birdteam.net/131798)
-
-2. node 版本管理工具 NodeVersionManager
-3. 返回到上一次的工作目录：`cd -`
-4. 进程查看器 htop
-5. 在 WSL 中使用 Windows 下的 Sublime Text：`sublime_text.exe filename_in_wsl` （建议在 `.zshrc / .bashrc` 中设置 `alias` 为 st）
-6. zsh（逐字）向右补全提示内容（需要插件 zsh-autosuggestions ）：(`ctrl` +) `→ / 右键` 
-7. MySQL 命令行神器 mycli：`sudo apt install mycli`
-8. 彩虹命令lolcat
+1. Telegram Group: [linux_home](https://t.me/linux_home)
+2. 使用 zsh(ZSHELL) 替换 bash ([配置方式](https://segmentfault.com/a/1190000015155864) [主题](https://birdteam.net/131798))
+3. node 版本管理工具 NodeVersionManager
+4. 返回到上一次的工作目录：`cd -`
+5. 进程查看器 htop
+6. 在 WSL 中使用 Windows 下的 Sublime Text：`sublime_text.exe filename_in_wsl` （建议在 `.zshrc / .bashrc` 中设置 `alias` 为 st）
+7. zsh（逐字）向右补全提示内容（需要插件 zsh-autosuggestions ）：(`ctrl` +) `→ / 右键` 
+8. MySQL 命令行神器 mycli：`sudo apt install mycli`
+9. 彩虹命令lolcat
 
 ```shell
 sudo apt install rubygems # 安装rubygems
@@ -142,17 +149,14 @@ pm2 start pm2.json --update-env
 
 14. 查找软件：如果不是 `yum / rpm` 安装的，是没有环境变量的，无法通过 `whereis` 找到软件，可通过 `find` 命令来找
 
-## Nginx (TG: https://t.me/nginx_ru)
+## Nginx
 
-1. Ubuntu 自带 nginx 的配置文件地址 `/etc/nginx/sites-available/default`, 自己安装的 nginx 的配置文件地址 `/usr/local/nginx/conf/nginx.conf`
-
-2. 打开(系统中所有的 Nginx，如：系统自带的 nginx、自己安装的 nginx 等): `sudo nginx`
-
-3. 重新加载配置|重启|停止|退出 nginx: `sudo nginx -s reload|reopen|stop|quit`
-
-4. 测试配置是否有语法错误: `sudo nginx -t` 
-
-5. Nginx 单页应用配置 (Nginx conf for SPA)
+1. Telegram Group: [nginx_ru](https://t.me/nginx_ru)
+2. Ubuntu 自带 nginx 的配置文件地址 `/etc/nginx/sites-available/default`, 自己安装的 nginx 的配置文件地址 `/usr/local/nginx/conf/nginx.conf`
+3. 打开(系统中所有的 Nginx，如：系统自带的 nginx、自己安装的 nginx 等): `sudo nginx`
+4. 重新加载配置|重启|停止|退出 nginx: `sudo nginx -s reload|reopen|stop|quit`
+5. 测试配置是否有语法错误: `sudo nginx -t` 
+6. Nginx 单页应用配置 (Nginx conf for SPA)
 
 ```shell
 # http->server->location
@@ -390,6 +394,8 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 
    ![JX](../../img/skills.assets/JX.png)
 
+4. [在线PS](https://www.tuyitu.com/photoshop/)掉左右两端的透明区域
+
 ## AWS Free Tier(CentOS7)
 
 1. 需要为EC2绑定弹性IP才可以使用
@@ -450,5 +456,7 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 
 **推广（来自小米用户）**：
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=stefango0a-20&marketplace=amazon&region=US&placement=B086R5PD49&asins=B086R5PD49&linkId=eb4d7969fdccf980dfb1e2d2da8b8367&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
+手机
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=stefango0a-20&marketplace=amazon&region=US&placement=B086R5PD49&asins=B086R5PD49&linkId=eb4d7969fdccf980dfb1e2d2da8b8367&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
+
