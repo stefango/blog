@@ -29,11 +29,26 @@ draft: false
 
 1. [V2EX](https://www.v2ex.com/)
 2. [牛客网](https://www.nowcoder.com/)
-3. [开源中国软件频道](https://www.oschina.net/project)
+3. [开源中国软件频道](https://www.oschina.net/project) [oschina chrome 插件](chrome-extension://ppagmdehdibgipjkjbijngfphoboggdf/html/oschina.html)
 4. [程序员客栈](https://www.proginn.com/)
-5. 酷安
+5. [程序猿DD](http://blog.didispace.com/)
+6. [Spring For All](http://www.spring4all.com/)
 
 ---
+
+## 摸鱼
+
+### Frequent
+
+1. [微不足道的树洞](http://j2.ac.cn/) 贱贱
+2. 酷安
+3. [少数派](https://sspai.com/)
+
+### Slack
+
+1. [china-githuber slack](https://china-githuber.slack.com/)
+2. [github-cn slack](https://github-cn.slack.com/)
+3. [stefango slack](https://stefango.slack.com/)
 
 ## 社会主义羊毛
 
@@ -41,6 +56,15 @@ draft: false
 2. [JIKE](https://jike.info/)
 3. [如有乐享](https://51.ruyo.net/)
 4. [也许吧](https://www.imaybes.com/)
+
+## Host
+
+1. [全球主机交流论坛](https://www.hostloc.com/)
+2. [Dynadot](https://www.dynadot.com/)
+
+## Tools
+
+1. [油猴脚本收藏夹](https://greasyfork.org/en/scripts?set=388345)
 
 ## Blog Format
 

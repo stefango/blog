@@ -49,4 +49,4 @@ projects: []
 
 ## Ref
 
-1. https://www.bilibili.com/video/av95417273
+1. [Java软件开发利器：IDEA插件分享!以Spring Boot项目为载体进行视频教程演示](https://www.bilibili.com/video/av95417273)
