@@ -40,9 +40,11 @@ draft: false
 
 ### Frequent
 
-1. [微不足道的树洞](http://j2.ac.cn/) 贱贱
-2. 酷安
-3. [少数派](https://sspai.com/)
+1. [水木社区-上海滩](https://exp.newsmth.net/board/d7f08699c96a9800532235a0ad82577a)
+2. [豆瓣小组-上海租房](https://www.douban.com/group/267688/)
+3. [微不足道的树洞](http://j2.ac.cn/) 贱贱j2
+4. 酷安
+5. [少数派](https://sspai.com/)
 
 ### Slack
 
