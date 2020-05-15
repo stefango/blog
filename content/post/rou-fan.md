@@ -75,6 +75,8 @@ projects: []
 | [万得](https://www.zhipin.com/gongsi/3be219eff47214b91nB42N26EQ~~.html?ka=search_rcmd_company_name_3be219eff47214b91nB42N26EQ~~_custompage)（上海、南京、深圳） | 不需要融资 | Java     | 12k+,14 | 金融公司，框架不明，985          |
 | [上海亦我信息技术](https://www.zhipin.com/gongsi/88312881323f34731HR-2dm8EA~~.html?ka=company-intro) | A轮        | 前端     | 12k+,14 | 123看房，在携程附近              |
 | [上海钢联](https://www.zhipin.com/gongsi/ebb03753411191481XRz3ti-.html?ka=company-intro)（唐灿同学） | 已上市     | Java/Vue | 8k,13   | 包住(二人间)                     |
+| 铃盛软件（厦门、硅谷等）                                     |            |          |         |                                  |
+| 欢聚时代 印度教育/海外游戏hago                               |            |          |         | 游戏后台Go                       |
 
 ## Notes
 
