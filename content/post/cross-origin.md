@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Certificate"
+title: "Cross Origin"
 subtitle: ""
 summary: ""
 authors: []
 tags: []
 categories: []
-date: 2020-04-15T16:17:43+08:00
-lastmod: 2020-04-15T16:17:43+08:00
+date: 2020-05-31T13:01:04+08:00
+lastmod: 2020-05-31T13:01:04+08:00
 featured: false
 draft: false
 
@@ -27,13 +27,3 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-
-## PMP
-
-
-
-## 高级软件工程师
-
-
-
-## CFA 特许金融分析师

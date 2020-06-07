@@ -60,23 +60,51 @@ projects: []
 ## 需要关注的学校2020年4月9日
 
 1. 东华大学&麦考瑞大学 Macquarie University
-2. 蒙莫斯大学
-3. 莫纳什大学&东南大学
-4. 大湾区大学
-5. 北京师范大学珠海分校
+
+   [黄永锋(副教授)Web开发](http://cst.dhu.edu.cn/62/85/c3131a25221/page.htm)
+
+   陈德华(副教授)
+
+   [黄秋波(副教授)JavaEE、SSH](http://cst.dhu.edu.cn/62/37/c3132a25143/page.htm)
+
+   丁祥武：不去指定公司上班就延毕...
+
+   甘杨兰：机器学习、生物医疗
+
+   陶然：技术流、给钱不含糊
+
+2. 昆山杜克大学
+
+   [李昕](https://dukekunshan.edu.cn/zh/professor-xin-li-appointed-director-iAPSE)（卡内基梅隆）：人工智能
+
+3. 蒙莫斯大学
+
+4. 日本九州工业大学
+
+5. 莫纳什大学&东南大学
+
+6. 大湾区大学
+
+7. 北京师范大学珠海分校
 
 ## 需要关注的公司（2020年春招）
 
-| 公司                                                         | 融资阶段   | 岗位     | 薪资    | 备注（仅代表个人观点）           |
-| ------------------------------------------------------------ | ---------- | -------- | ------- | -------------------------------- |
-| [苏州科达](https://www.zhipin.com/gongsi/a4b048155f44150d1HFy09S-.html?ka=search_rcmd_company_name_a4b048155f44150d1HFy09S-_custompage)（苏州、上海） | 已上市     | Java/Vue | 7-8k,15 | 新加坡合资，不同部门业务不一样   |
-| [泛微](https://www.zhipin.com/gongsi/8d038826246b5fb31nV83d4~.html)（上海等） | 已上市     | Java     | 8k+     | OA龙头，无加班文化，有新加坡业务 |
-| [契约锁](https://www.zhipin.com/gongsi/13ecf70cfa01a1481XZ809y4.html?ka=job-detail-company-logo_custompage) | B轮        | 前端     | 8-10k   | 前身泛微子公司，技术新，面试较难 |
-| [万得](https://www.zhipin.com/gongsi/3be219eff47214b91nB42N26EQ~~.html?ka=search_rcmd_company_name_3be219eff47214b91nB42N26EQ~~_custompage)（上海、南京、深圳） | 不需要融资 | Java     | 12k+,14 | 金融公司，框架不明，985          |
-| [上海亦我信息技术](https://www.zhipin.com/gongsi/88312881323f34731HR-2dm8EA~~.html?ka=company-intro) | A轮        | 前端     | 12k+,14 | 123看房，在携程附近              |
-| [上海钢联](https://www.zhipin.com/gongsi/ebb03753411191481XRz3ti-.html?ka=company-intro)（唐灿同学） | 已上市     | Java/Vue | 8k,13   | 包住(二人间)                     |
-| 铃盛软件（厦门、硅谷等）                                     |            |          |         |                                  |
-| 欢聚时代 印度教育/海外游戏hago                               |            |          |         | 游戏后台Go                       |
+| 公司                                                         | 融资阶段   | 岗位             | 薪资    | 备注（仅代表个人观点）              |
+| ------------------------------------------------------------ | ---------- | ---------------- | ------- | ----------------------------------- |
+| [苏州科达](https://www.zhipin.com/gongsi/a4b048155f44150d1HFy09S-.html?ka=search_rcmd_company_name_a4b048155f44150d1HFy09S-_custompage)（苏州、上海） | 已上市     | Java/Vue         | 7-8k,15 | 新加坡合资，不同部门业务不一样      |
+| [泛微](https://www.zhipin.com/gongsi/8d038826246b5fb31nV83d4~.html)（上海等） | 已上市     | Java             | 8k+     | OA龙头，无加班文化，有新加坡业务    |
+| [契约锁](https://www.zhipin.com/gongsi/13ecf70cfa01a1481XZ809y4.html?ka=job-detail-company-logo_custompage) | B轮        | 前端             | 8-10k   | 前身泛微子公司，技术新，面试较难    |
+| [万达信息](https://www.zhipin.com/gongsir/091129815dc444bc1nR429u-_100000.html)（上海） | 已上市     | 前端/Java/大数据 | 9-14k   | 智慧城市，全国首家整体通过CMMI5认证 |
+| [万得](https://www.zhipin.com/gongsi/3be219eff47214b91nB42N26EQ~~.html?ka=search_rcmd_company_name_3be219eff47214b91nB42N26EQ~~_custompage)（上海、南京、深圳） | 不需要融资 | Java             | 12k+,14 | 金融公司，框架不明，985             |
+| [上海亦我信息技术](https://www.zhipin.com/gongsi/88312881323f34731HR-2dm8EA~~.html?ka=company-intro) | A轮        | 前端             | 12k+,14 | 123看房，在携程附近                 |
+| [上海钢联](https://www.zhipin.com/gongsi/ebb03753411191481XRz3ti-.html?ka=company-intro)（唐灿同学） | 已上市     | Java/Vue         | 8k,13   | 包住(二人间)                        |
+| [铃盛软件](https://www.zhipin.com/gongsir/80c13ab8defea0fc0XR83tW0_100000.html)（厦门、硅谷等） | 已上市     |                  |         | 美国知名云商务通信服务提供商        |
+| [欢聚时代](https://app.mokahr.com/apply/hjsd/48#/jobs?_k=i3ov2o) 印度教育/海外游戏hago | 美股上市   |                  |         | 游戏后台Go                          |
+
+## Laws
+
+1. [劳动合同法（2012修正）第十七条规定了合同内容](https://duxiaofa.baidu.com/detail?searchType=statute&from=aladdin_28231&originquery=%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C%E6%B3%95&count=98&cid=d5fff5d3dfa03ad24257a9fb02e77b80_law#chapter_2)
+2. [劳动法（2018修正）](https://duxiaofa.baidu.com/detail?searchType=statute&from=aladdin_28231&originquery=%E5%8A%B3%E5%8A%A8%E6%B3%95&count=100&cid=f973eed12c40996496eca258acb0a140_law)
 
 ## Notes
 
