@@ -42,9 +42,10 @@ draft: false
 
 1. [水木社区-上海滩](https://exp.newsmth.net/board/d7f08699c96a9800532235a0ad82577a)
 2. [豆瓣小组-上海租房](https://www.douban.com/group/267688/)
-3. [微不足道的树洞](http://j2.ac.cn/) 贱贱j2
-4. 酷安
-5. [少数派](https://sspai.com/)
+3. [天涯社区-情感专栏](http://bbs.tianya.cn/list.jsp?item=feeling&sub=6)
+4. [微不足道的树洞](http://j2.ac.cn/) 贱贱j2
+5. 酷安
+6. [少数派](https://sspai.com/)
 
 ### Slack
 
