@@ -10,7 +10,7 @@ featured: false
 draft: false
 ---
 
-### Q: Unknown Mutation Type
+## Q: Unknown Mutation Type
 
 近日，我在 vuex 3.1.3 的 mutations 中封装 antd 提供的 notification 时，遇到了 `unknown mutation type: SHOW_NOTIFICATION`
 
@@ -44,17 +44,17 @@ actions: {...}
 ...
 ```
 
-### A1（不推荐）
+## A1（不推荐）
 
 前情提要：各路大佬表示不建议在 mutation 中 commit。
 
 野路子：由于设置了 namespaced 为 true，所以在 mutation 中 commit 时需要加上 moduleName。
 
-### A2（推荐）
+## A2（推荐）
 
 dispatch 不同的 action 来实现 commit 不同的 mutation。
 
-### Ref
+## Ref
 
 1. Jonas from vuebeijing.io wechat group
 2. [组合 action](https://vuex.vuejs.org/zh/guide/actions.html#%E7%BB%84%E5%90%88-action)
