@@ -328,7 +328,20 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 4. [服务器上的 Git - 生成 SSH 公钥](https://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5)
    
    1. 本地 - `~/.ssh` 目录下输入`ssh-keygen` ，生成 `id_rsa` 和 `id_ras.pub`
+   
    2. 码云 - 设置 - SSH公钥 - 填入本地 `~/.ssh/id_rsa.pub` 中的内容
+   
+   3. 如果是 github 的话，还需要把 `.git/config` 文件中的 https 改为 ssh
+   
+   4. 验证是否成功配置 ssh key
+   
+      ```shell
+      ssh -T git@github.com
+      # 输出以下结果即表示成功
+      # Hi stefango! You've successfully authenticated, but GitHub does not provide shell access.
+      ```
+   
+      
 3. 服务器 - `vim  ~/.ssh/authorized_keys` - 填入本地 `~/.ssh/id_rsa.pub` 中的内容，连接 ` ssh root@ip` 
    
 5. wget Unable to establish SSL connection
