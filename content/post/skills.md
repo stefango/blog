@@ -295,8 +295,12 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 1. git 代理（仅针对 github）
 
    ```shell
-git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
-   git config --global https.https://github.com.proxy socks5://127.0.0.1:1080
+   # 设置代理
+   git config --global http.https://github.com.proxy socks5://127.0.0.1:10808
+   git config --global https.https://github.com.proxy socks5://127.0.0.1:10808
+   # 取消代理
+   git config --global --unset http.proxy
+   git config --global --unset https.proxy
    ```
 
 2. 利用 shell 脚本 + Git Bash (+ PowerShell) 快速提交代码
