@@ -254,9 +254,10 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 1. 新标签页中打开网页：`ctrl` + `url`
 2. 打开新的标签页：单击鼠标滚轮 / `ctrl` + `T`
 3. 打开新的窗口：`ctrl` + `N`
-4. 不使用 IDM 插件下载：`alt` + `download_link`
-5. [IDM Chrome 插件](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
-6. 代理工具 SwitchyOmega ("导入/导出"中填入 `https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList.bak`)
+4. 关闭标签页【窗口】：`ctrl + shift [+ w]`
+5. 不使用 IDM 插件下载：`alt` + `download_link`
+6. [IDM Chrome 插件](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
+7. 代理工具 SwitchyOmega ("导入/导出"中填入 `https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList.bak`)
 
 ## Typora
 
