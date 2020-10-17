@@ -75,6 +75,8 @@ projects: []
    
 7. 命令行启动 mysql57：`net start mysql57`
 
+8. [Windows Terminal 设置 wsl 默认目录](https://docs.microsoft.com/en-us/windows/terminal/customize-settings/profile-settings#starting-directory)：`"startingDirectory": "\\\\wsl$\\DISTRO NAME\\home\\USERNAME"`
+
 ## Linux
 
 1. Telegram Group: [linux_home](https://t.me/linux_home)
