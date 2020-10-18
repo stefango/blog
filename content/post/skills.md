@@ -258,6 +258,7 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 5. 不使用 IDM 插件下载：`alt` + `download_link`
 6. [IDM Chrome 插件](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
 7. 代理工具 SwitchyOmega ("导入/导出"中填入 `https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList.bak`)
+8. [调试时屏蔽 JavaScript 库代码 –Chrome DevTools Blackbox 功能介绍](http://www.alloyteam.com/2015/01/chrome-devtools-blackbox/?bsh_bid=5557925887)
 
 ## Typora
 
