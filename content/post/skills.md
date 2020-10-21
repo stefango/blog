@@ -342,7 +342,6 @@ tar -xf apache-tomcat-9.0.33.tar.gz
       # Hi stefango! You've successfully authenticated, but GitHub does not provide shell access.
       ```
    
-      
 3. 服务器 - `vim  ~/.ssh/authorized_keys` - 填入本地 `~/.ssh/id_rsa.pub` 中的内容，连接 ` ssh root@ip` 
    
 5. wget Unable to establish SSL connection
@@ -473,6 +472,12 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+
+---
+
+**Mars Ticket**
+
+<iframe width="980" height="410" src="https://staging-mars.nasa.gov/layout/embed/send-your-name/future/certificate/?cn=588368642564" frameborder="0"></iframe>
 
 ---
 
