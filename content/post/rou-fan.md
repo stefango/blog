@@ -97,9 +97,10 @@ projects: []
 | [万达信息](https://www.zhipin.com/gongsir/091129815dc444bc1nR429u-_100000.html)（上海） | 已上市     | 前端/Java/大数据 | 9-14k   | 智慧城市，全国首家整体通过CMMI5认证 |
 | [万得](https://www.zhipin.com/gongsi/3be219eff47214b91nB42N26EQ~~.html?ka=search_rcmd_company_name_3be219eff47214b91nB42N26EQ~~_custompage)（上海、南京、深圳） | 不需要融资 | Java             | 12k+,14 | 金融公司，框架不明，985             |
 | [上海亦我信息技术](https://www.zhipin.com/gongsi/88312881323f34731HR-2dm8EA~~.html?ka=company-intro) | A轮        | 前端             | 12k+,14 | 123看房，在携程附近                 |
-| [上海钢联](https://www.zhipin.com/gongsi/ebb03753411191481XRz3ti-.html?ka=company-intro)（唐灿同学） | 已上市     | Java/Vue         | 8k,13   | 包住(二人间)                        |
+| [上海钢联](https://www.zhipin.com/gongsi/ebb03753411191481XRz3ti-.html?ka=company-intro)（TC同学） | 已上市     | Java/Vue         | 8k,13   | 包住(二人间)                        |
 | [铃盛软件](https://www.zhipin.com/gongsir/80c13ab8defea0fc0XR83tW0_100000.html)（厦门、硅谷等） | 已上市     |                  |         | 美国知名云商务通信服务提供商        |
-| [欢聚时代](https://app.mokahr.com/apply/hjsd/48#/jobs?_k=i3ov2o) 印度教育/海外游戏hago | 美股上市   |                  |         | 游戏后台Go                          |
+| [欢聚时代](https://app.mokahr.com/apply/hjsd/48#/jobs?_k=i3ov2o) | 美股上市   |                  |         | 游戏后台Go、印度教育、海外游戏hago  |
+| [WAP万革士](https://www.zhipin.com/gongsir/85de0b98236be3d10nB-2Ny7.html?ka=position-1)（上海） |            |                  |         | 日企、ERP                           |
 
 ## Laws
 
