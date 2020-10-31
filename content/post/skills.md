@@ -371,6 +371,8 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 1. 下载[v2rayN-core](https://github.com/2dust/v2rayN/releases)
 2. 配置：添加VMess服务器，填写address、port、id（服务器端的clients id）、alterId
 
+注：测速超时的原因可能是安全组没有放行 ICMP 协议的请求（[ping 与 tcping](https://jzgkchina.com/node/1005)）
+
 ## Xshell
 
 1. 上传/下载工具包 rz (覆盖 `rz -y`)及 sz (下载), `yum install -y lrzsz`
@@ -419,7 +421,7 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 
 ## AWS Free Tier(CentOS7)
 
-1. 需要为EC2绑定弹性IP才可以使用
+1. 需要为EC2绑定弹性IP（[通过AWS CLI自动替换EC2实例IP地址](https://wangfanggang.com/AWS/aws-cli-renew-ip/)  注意 cli2 的 `--filters "Name=tag-key,Values=tag的名字"`）才可以使用
 
 2. 用户名为centos，连接方式为 `ssh -i "your.pem" centos@弹性IP`
 
