@@ -16,7 +16,7 @@ baseurl = "https://xzl.netlify.app/"
 copyright = "@ 2019-{year} Xu Zili"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "G-74GG6QWMLM"
 
 ############################
 ## Advanced options below ##
