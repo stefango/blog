@@ -47,7 +47,11 @@ projects: []
 
 4. 轻微摇晃(左右)当前窗体可隐藏其他窗体
 
-5. Office2019  https://www.cnblogs.com/radiumlrb/p/10030064.html  https://kms.03k.org
+5. Office2019**VOL** https://kms.03k.org （[其他KMS](https://zhuanlan.zhihu.com/p/107846435)）
+
+   若误下载为Retail版，参见 [用于 Office 2019 和 Office 2016 的 KMS 和基于 Active Directory 激活的 GVLK | Microsoft Docs](https://docs.microsoft.com/zh-cn/DeployOffice/vlactivation/gvlks#gvlks-for-office-2019) ，找自己对应的 Office 套件，替换密钥为官方提供的密钥，即可转换为VOL版。
+
+   参考：[博客园](https://www.cnblogs.com/radiumlrb/p/10030064.html)
 
 6. SSH for WSL (其实没必要SSH，在 cmder 中直接输入 `wsl` 即可)
 
@@ -70,9 +74,9 @@ projects: []
       # 重启ssh服务
    sudo service ssh --full-restart
       ```
-   
+
    3. 使用 cmder (支持复制、粘贴) 连接: `ssh username@localhost`
-   
+
 7. 命令行启动 mysql57：`net start mysql57`
 
 ## Linux
