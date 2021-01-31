@@ -79,6 +79,8 @@ projects: []
 
 7. 命令行启动 mysql57：`net start mysql57`
 
+8. [Windows Terminal 设置 wsl 默认目录](https://docs.microsoft.com/en-us/windows/terminal/customize-settings/profile-settings#starting-directory)：`"startingDirectory": "\\\\wsl$\\DISTRO NAME\\home\\USERNAME"`
+
 ## Linux
 
 1. Telegram Group: [linux_home](https://t.me/linux_home)
@@ -256,9 +258,11 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 1. 新标签页中打开网页：`ctrl` + `url`
 2. 打开新的标签页：单击鼠标滚轮 / `ctrl` + `T`
 3. 打开新的窗口：`ctrl` + `N`
-4. 不使用 IDM 插件下载：`alt` + `download_link`
-5. [IDM Chrome 插件](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
-6. 代理工具 SwitchyOmega ("导入/导出"中填入 `https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList.bak`)
+4. 关闭标签页【窗口】：`ctrl + shift [+ w]`
+5. 不使用 IDM 插件下载：`alt` + `download_link`
+6. [IDM Chrome 插件](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek)
+7. 代理工具 SwitchyOmega ("导入/导出"中填入 `https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList.bak`)
+8. [调试时屏蔽 JavaScript 库代码 –Chrome DevTools Blackbox 功能介绍](http://www.alloyteam.com/2015/01/chrome-devtools-blackbox/?bsh_bid=5557925887)
 
 ## Typora
 
@@ -296,8 +300,12 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 1. git 代理（仅针对 github）
 
    ```shell
-git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
-   git config --global https.https://github.com.proxy socks5://127.0.0.1:1080
+   # 设置代理
+   git config --global http.https://github.com.proxy socks5://127.0.0.1:10808
+   git config --global https.https://github.com.proxy socks5://127.0.0.1:10808
+   # 取消代理
+   git config --global --unset http.proxy
+   git config --global --unset https.proxy
    ```
 
 2. 利用 shell 脚本 + Git Bash (+ PowerShell) 快速提交代码
@@ -325,7 +333,19 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 4. [服务器上的 Git - 生成 SSH 公钥](https://git-scm.com/book/zh/v1/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5)
    
    1. 本地 - `~/.ssh` 目录下输入`ssh-keygen` ，生成 `id_rsa` 和 `id_ras.pub`
+   
    2. 码云 - 设置 - SSH公钥 - 填入本地 `~/.ssh/id_rsa.pub` 中的内容
+   
+   3. 如果是 github 的话，还需要把 `.git/config` 文件中的 https 改为 ssh
+   
+   4. 验证是否成功配置 ssh key
+   
+      ```shell
+      ssh -T git@github.com
+      # 输出以下结果即表示成功
+      # Hi stefango! You've successfully authenticated, but GitHub does not provide shell access.
+      ```
+   
 3. 服务器 - `vim  ~/.ssh/authorized_keys` - 填入本地 `~/.ssh/id_rsa.pub` 中的内容，连接 ` ssh root@ip` 
    
 5. wget Unable to establish SSL connection
@@ -354,6 +374,8 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 
 1. 下载[v2rayN-core](https://github.com/2dust/v2rayN/releases)
 2. 配置：添加VMess服务器，填写address、port、id（服务器端的clients id）、alterId
+
+注：测速超时的原因可能是安全组没有放行 ICMP 协议的请求（[ping 与 tcping](https://jzgkchina.com/node/1005)）
 
 ## Xshell
 
@@ -403,7 +425,7 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 
 ## AWS Free Tier(CentOS7)
 
-1. 需要为EC2绑定弹性IP才可以使用
+1. 需要为EC2绑定弹性IP（[通过AWS CLI自动替换EC2实例IP地址](https://wangfanggang.com/AWS/aws-cli-renew-ip/)  注意 cli2 的 `--filters "Name=tag-key,Values=tag的名字"`）才可以使用
 
 2. 用户名为centos，连接方式为 `ssh -i "your.pem" centos@弹性IP`
 
@@ -456,6 +478,12 @@ git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+
+---
+
+**Mars Ticket**
+
+<iframe width="980" height="410" src="https://staging-mars.nasa.gov/layout/embed/send-your-name/future/certificate/?cn=588368642564" frameborder="0"></iframe>
 
 ---
 

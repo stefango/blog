@@ -77,7 +77,7 @@ draft: false
 
 ## Blog Format
 
-- 网址：https://stefango.tk
+- 网址：https://xzl.netlify.app/post
 - 名称：Stefango
 - 头像：
 https://cdn.jsdelivr.net/gh/stefango/academic-kickstart/content/authors/admin/avatar.jpg
