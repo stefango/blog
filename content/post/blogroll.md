@@ -18,7 +18,8 @@ draft: false
 1. [shanyujie](https://danyujie.gitee.io)
 2. [devilyouwei](https://github.com/devilyouwei)
 3. MeandNi（安卓） https://meandni.com/ https://github.com/MeandNi
-4. ...
+4. [Joyyu](https://flynn-eye.github.io/blog/)
+5. ...
 ## Strangers
 
 1. [陈文管的博客-Amazon Affiliate账号注册详解](https://www.chenwenguan.com/amazon-affiliate-register-and-use-guide/)
