@@ -277,7 +277,7 @@ tar -xf apache-tomcat-9.0.33.tar.gz
    sudo yum install -y nodejs
    # Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
    yum -y install deltarpm
-
+   
    # No Presto metadata available for nodesource
    # edit `/etc/yum.conf` and add or change the following:
    deltarpm=0
@@ -348,7 +348,9 @@ tar -xf apache-tomcat-9.0.33.tar.gz
    
 3. 服务器 - `vim  ~/.ssh/authorized_keys` - 填入本地 `~/.ssh/id_rsa.pub` 中的内容，连接 ` ssh root@ip` 
    
-5. wget Unable to establish SSL connection
+5. [Git配置多个SSH-Key](https://gitee.com/help/articles/4229)
+
+7. wget Unable to establish SSL connection
 
    ```shell
    # 将 raw.githubusercontent.com 替换为 raw.staticdn.net
@@ -455,7 +457,6 @@ tar -xf apache-tomcat-9.0.33.tar.gz
      - 添加 `Template Group` (如：A My Group，加 A 可将这个分组置顶)
 
      - 上述 Group 中添加 `Live Template`， `Abbreviation` 填入 `mainboot`
-   
   - `Define`，选择 `Java`
    
   - `Template text` 中填入
