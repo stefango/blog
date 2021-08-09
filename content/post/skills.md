@@ -268,21 +268,25 @@ tar -xf apache-tomcat-9.0.33.tar.gz
 
 1. 设置标题级别：`ctrl` + `数字(小键盘不可以用)`
 2. 反缩进：`shift` + `tab`
+3. [用命令行打开](https://support.typora.io/Use-Typora-From-Shell-or-cmd/)
+
+## Homebrew
+
+1. 检测（brew装git且本机内置git时，会提供覆盖的命令）：brew doctor
+
+2. 设置英文
+
+   ```shell
+   # 1.在 `.zshrc` 中添加
+   export LC_ALL=en_US.UTF-8
+   # 2.使配置生效
+   source ~/.zshrc
+   ```
+
+   
 
 ## Node
 
-1. centos7安装node12
-   ```shell
-   curl -sL https://rpm.nodesource.com/setup_12.x | bash -
-   sudo yum install -y nodejs
-   # Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
-   yum -y install deltarpm
-   
-   # No Presto metadata available for nodesource
-   # edit `/etc/yum.conf` and add or change the following:
-   deltarpm=0
-   ```
-   
 2. npm 的镜像源管理工具 nrm (npm registry manager)
 
    1. 安装 `npm i -g nrm` 
