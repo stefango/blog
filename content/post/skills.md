@@ -35,7 +35,7 @@ projects: []
   </a>
 </div>
 
-{{% toc %}}
+{{ .TableOfContents }}
 
 ## Windows10
 
