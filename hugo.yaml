@@ -40,7 +40,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -50,11 +50,6 @@ params:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "/favicon.ico"
-
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
 
   # profile-mode
   profileMode:
@@ -116,15 +111,19 @@ menu:
     - identifier: search
       name: Search
       url: /search/
-      weight: 10
+      weight: 1
+    - identifier: posts
+      name: Posts
+      url: /post/
+      weight: 2
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
+      weight: 3
     - identifier: github
       name: GitHub
       url: https://github.com/stefango/blog
-      weight: 30
+      weight: 4
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -135,3 +134,11 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
+services:
+  disqus:
+    shortname: stefango
+renderer:
+  unsafe: true
