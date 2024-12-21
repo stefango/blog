@@ -7,6 +7,7 @@ pagination:
   path: page
 
 enableRobotsTXT: true
+enableGitInfo: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -22,11 +23,11 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Blog
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [stefango, Blog, PaperMod]
   author: stefango
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "Jan 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -34,7 +35,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
