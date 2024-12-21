@@ -1,3 +1,3 @@
-[![Netlify Status](README.assets/badge-success.svg)](https://app.netlify.com/sites/eager-wright-8ec25a/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0674ce0c-ec8e-4db8-97a8-af6c0726ca65/deploy-status)](https://app.netlify.com/sites/xzl/deploys)
 
-Go to https://xzl.netlify.app/
+See https://xzl.netlify.app/
