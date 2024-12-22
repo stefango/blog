@@ -1,13 +1,10 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Vuex 踩坑记之 Unknown Mutation Type"
 tags: ['vue','vuex']
 categories: []
 date: 2020-05-03T20:53:44+08:00
 lastmod: 2020-05-03T20:53:44+08:00
 featured: false
-draft: false
 ---
 
 ## Q: Unknown Mutation Type

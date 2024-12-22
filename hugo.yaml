@@ -1,4 +1,4 @@
-baseURL: "https://xzl.now.sh/"
+baseURL: "https://xzl.vercel.app/"
 title: Blog
 theme: PaperMod
 pagination:
@@ -141,5 +141,3 @@ markup:
 services:
   disqus:
     shortname: stefango
-renderer:
-  unsafe: true

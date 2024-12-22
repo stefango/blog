@@ -1,16 +1,8 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "Blogroll"
-subtitle: ""
-summary: ""
-authors: ["Xu Zili"]
 tags: ["blog"]
-categories: []
 date: 2019-08-23T11:23:13+08:00
 lastmod: 2019-08-23T11:23:13+08:00
-featured: false
-draft: false
 ---
 
 ## Alumnus

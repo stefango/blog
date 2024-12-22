@@ -1,7 +1,6 @@
 ---
 title: "Jupyter Learning"
 date: 2019-11-14T10:09:46+08:00
-draft: false
 ---
 
 ## Ref
