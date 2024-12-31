@@ -5,6 +5,7 @@ See https://xzl.netlify.app/ or https://xzl.vercel.app/
 
 # Development
 ```bash
+git clone --recurse-submodules git@github.com:stefango/blog.git
 # hugo v0.140.0
 hugo server -D
 ```

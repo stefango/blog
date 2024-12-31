@@ -2,3 +2,4 @@ public/
 .idea/
 /img
 .hugo_build.lock
+.firebase
