@@ -10,7 +10,7 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.140.0
+      HUGO_VERSION: 0.153.5
     steps:
       - name: Install Hugo CLI
         run: |
